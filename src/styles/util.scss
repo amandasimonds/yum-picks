@@ -2,6 +2,10 @@
 
 .flex {
 	display: flex;
+
+	&-column {
+		flex-direction: column;
+	}
 }
 
 .align {
@@ -22,11 +26,15 @@
 	}
 
 	&-sm {
-		gap: 8px;
+		gap: 12px;
 	}
 
 	&-md {
-		gap: 12px;
+		gap: 16px;
+	}
+
+    &-lg {
+		gap: 24px;
 	}
 }
 
@@ -41,6 +49,10 @@
 
 	&-md {
 		padding: 16px;
+	}
+
+    &-lg {
+		padding: 24px;
 	}
 }
 
