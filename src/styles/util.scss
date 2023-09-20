@@ -1,0 +1,49 @@
+@import './variables.scss';
+
+.flex {
+	display: flex;
+}
+
+.align {
+	&-center {
+		align-items: center;
+	}
+}
+
+.justify {
+	&-center {
+		justify-content: center;
+	}
+}
+
+.gap {
+	&-xs {
+		gap: 4px;
+	}
+
+	&-sm {
+		gap: 8px;
+	}
+
+	&-md {
+		gap: 12px;
+	}
+}
+
+.padding {
+	&-xs {
+		padding: 8px;
+	}
+
+	&-sm {
+		padding: 12px;
+	}
+
+	&-md {
+		padding: 16px;
+	}
+}
+
+.box-shadow {
+	box-shadow: var(--box-shadow);
+}
